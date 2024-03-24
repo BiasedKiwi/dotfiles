@@ -1,6 +1,16 @@
 # dotfiles
 
-dotfiles (config files and scripts) for my Arch machine.
+My personal dotfiles (config files and scripts) for my Arch machine.
+
+## Programs
+
+- Window manager: [bspwm](https://github.com/baskerville/bspwm)
+- Compositor: [picom](https://github.com/yshui/picom)
+- Terminal: [Alacritty](https://github.com/alacritty/alacritty)
+- Notification daemon: [dunst](https://github.com/dunst-project/dunst)
+- Status bar: [polybar](https://github.com/polybar/polybar)
+- Hotkey daemon: [sxhkd](https://github.com/baskerville/sxhkd)
+- Shell: [zsh](https://www.zsh.org/)
 
 ## Fonts
 
