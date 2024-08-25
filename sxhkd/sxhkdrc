@@ -38,6 +38,14 @@ super + y
 super + g
 	bspc node -s biggest.window
 
+# Send to desktop (not working)
+#super + Tab + {1-9,0}
+#   bspc node -d '^{1-9,10}' --follow
+
+# Send to monitor
+#super + shift + equal
+#    bspc node -m last --follow
+
 #
 # state/flags
 #
@@ -71,8 +79,8 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}.local
 
 # focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
+# super + {grave,Tab}
+# 	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
 super + {o,i}
@@ -132,4 +140,4 @@ super + {Left,Down,Up,Right}
 # screenshot
 #
 shift + super + s
-	scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H:%M_screenshot.png
+	scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H:%M_screenshot.png -e 'xclip -selection clipboard -target image/png -i $f'
