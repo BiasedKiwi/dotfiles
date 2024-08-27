@@ -7,8 +7,16 @@ super + Return
 	alacritty
 
 # program launcher
+#super + @space
+#	rofi -show drun
+
+# program launcher
 super + @space
-	rofi -show drun
+	sh $HOME/.config/rofi/bin/launcher
+
+# Rofi
+super + {d,r,p}
+	sh $HOME/.config/rofi/bin/{launcher,runner,powermenu}
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -141,3 +149,20 @@ super + {Left,Down,Up,Right}
 #
 shift + super + s
 	scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H:%M_screenshot.png -e 'xclip -selection clipboard -target image/png -i $f'
+
+# Powermenu
+
+super + Backspace; {1,2,3,4}
+    {dm-tool switch-to-greeter, i3-msg exit, reboot, systemctl poweroff -i, \
+    mode "default"}
+
+# Program Shortcuts
+
+alt + f
+	firefox &
+
+alt + d
+	discord &
+
+alt + s
+	spotify &
