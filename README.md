@@ -24,4 +24,4 @@ My personal dotfiles (config files and scripts) for my Arch machine.
 - Hack: [Repo](https://github.com/source-foundry/Hack)
 - SF Pro Text: [Repo](https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts)
 - SF Pro Display: [Repo](https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts)
-- Iosevka : [Repo](https://github.com/be5invis/Iosevka)
+- Iosevka: [Repo](https://github.com/be5invis/Iosevka)
