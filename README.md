@@ -4,7 +4,7 @@ My personal dotfiles (config files and scripts) for my Arch machine.
 
 ## Screenshots
 
-![Desktop](./screenshots/2024-03-24-122400_2560x1440_scrot.png)
+![Desktop](./screenshots/2024-08-26_11:25_screenshot.png)
 
 ## Programs
 
